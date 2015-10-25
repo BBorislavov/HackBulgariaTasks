@@ -67,6 +67,7 @@ void install (string curr_dep,string all_dep[][30],int row){
 
 int main () {
 
+    mkdir("installing_modules/");
 
     ifstream a("all_packages.json");
     ifstream d("dependencies.json");
